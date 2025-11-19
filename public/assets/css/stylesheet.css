@@ -1,0 +1,115 @@
+body {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+#sidebarMenu {
+  background-color: #363740;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.sideNav {
+  min-height: 100vh;
+  padding-left: 0;
+  padding-right: 0;
+}
+.sideNav h4 {
+  color: #a4a6b3;
+  font-size: 19px;
+  font-weight: 800;
+}
+
+.navItems a {
+  color: #a4a6b3;
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 0.8rem;
+}
+.navItems a:hover {
+  color: #dde2ff;
+  background-color: #3f4049;
+}
+
+.ticketCard:hover {
+  color: #3751ff;
+  border-color: #3751ff;
+}
+
+.hrBreak {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.chart {
+  height: 300px;
+}
+
+.mainArea {
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+.vertical-separator {
+  height: 24px;
+  margin: 0 12px;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 576px) {
+  .headerArea {
+    padding: 0.75rem !important;
+    margin: 0.5rem !important;
+  }
+  .headerArea h2 {
+    font-size: 1.1rem !important;
+  }
+  .navIcons {
+    gap: 0.5rem;
+  }
+  .btn {
+    padding: 0.25rem 0.5rem;
+  }
+  .btn i {
+    font-size: 0.9rem;
+  }
+  .navIcons span.p-2 {
+    padding: 0.25rem !important;
+    font-size: 0.8rem;
+  }
+  .user-avatar {
+    width: 32px;
+    height: 32px;
+    font-size: 0.8rem;
+  }
+  .vertical-separator {
+    height: 20px;
+    margin: 0 6px;
+  }
+}
+@media (max-width: 480px) {
+  .navIcons {
+    gap: 0.25rem;
+  }
+  .vertical-separator {
+    height: 18px;
+    margin: 0 4px;
+  }
+  .btn {
+    padding: 0.2rem 0.4rem;
+  }
+  .btn i {
+    font-size: 0.85rem;
+  }
+  .navIcons span.p-2 {
+    font-size: 0.75rem;
+    padding: 0.2rem !important;
+  }
+}
+
+/*# sourceMappingURL=stylesheet.css.map */
